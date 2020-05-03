@@ -1,0 +1,20 @@
+{
+  "name": "adventure",
+  "version": "1.0.0",
+  "description": "TCP Game thing, idk",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "run": "node --experimental-json-modules dist/main.js",
+    "comp": "tsc",
+    "comp-run": "npm run comp && npm run run"
+  },
+  "author": "Consoli0",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.4"
+  },
+  "dependencies": {
+    "linebyline": "^1.3.0"
+  }
+}

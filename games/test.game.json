@@ -1,0 +1,32 @@
+{
+  "id": "testgame",
+  "name": "The Test Game",
+  "description": "Just a game for testing with!",
+  "story": {
+    "room1": {
+      "text": "hello from room 1!",
+      "choices": [
+        {
+          "target": "room2",
+          "name": "Room 2"
+        }
+      ]
+    },
+    "room2": {
+      "text": "hello from room 2!",
+      "choices": [
+        {
+          "target": "room1",
+          "name": "Back to room 1"
+        },
+        {
+          "target": "{<end>}",
+          "name": "End game!"
+        }
+      ]
+    }
+  },
+  "defaultProgress": {
+    
+  }
+}
